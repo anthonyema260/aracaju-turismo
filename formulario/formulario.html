@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <title>Veha para Aracaju!</title>
+    <link rel="icon" href="/imagens/logo.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/index.html"><img src="/imagens/logo.png"></a>
+                <div>
+                    <a href="/atrações/atracoes.html">Atrações</a>
+                    <a href="/dicas_locais/dicas.html">Dicas Locais</a>
+                    <a href="/formulario/formulario.html">Venha Conhecer Aracaju</a>
+                </div>
+        </nav>
+    </header>
+    <section class="banner-home">
+        <div class="cover-shadow">    
+            <div>
+                <section class="formulario"></section>
+                <div class="container">
+                    <h1>Planeje sua vinda a Aracau aqui!</h1>
+                    <form id="registrationForm" onsubmit="submitForm(event)">
+                        <label for="name">Nome Completo:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="arrivalDate">Data de Chegada:</label>
+                        <input type="date" id="arrivalDate" name="arrivalDate" required>
+        
+                        <label for="departureDate">Data de Saída:</label>
+                        <input type="date" id="departureDate" name="departureDate" required>
+        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+        
+            <script src="formulario.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <script src="formulario.js"></script>
+    <footer>
+        <h1>Direitos Autorais e Créditos</h1>
+        <p>© Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

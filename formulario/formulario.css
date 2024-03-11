@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  align-items: center; 
+  background-color: rgba(182, 140, 89, 0.6);
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+header > nav > div {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+header > nav > div > a {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.3s;
+  padding: 0px 2rem;
+}
+header > nav > div > a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+header > nav > a > img {
+  max-width: 8rem;
+  align-self: flex-end;
+  padding-left: 2rem;
+}
+section.banner-home {
+  text-align: center;
+  background-image: url("/imagens/Aracaju_vista_do_alto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+section.banner-home h1 {
+  text-decoration: underline;
+  font-family: 'Croissant One';
+  font-size: 40px;
+}
+section.banner-home h2 {
+  font-size: 28pt;
+}
+section.banner-home > div {
+  background-color: rgba(255, 255, 255, 0.711);
+  color: black;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  backdrop-filter: blur(2px);
+}
+section.banner-home > div div{
+  margin: 4rem;
+}
+section.banner-home{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+}
+section.banner-home > div{
+  background-color: rgba(237, 195, 145, 0.589);
+  color: black;
+  max-width: 700px;
+  height: 600px; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: auto;
+  margin: 80px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+#registrationForm label {
+  display: block;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+#registrationForm input {
+  display: block;
+  width: 100%; 
+  margin-top: 5px; 
+  box-sizing: border-box; 
+}
+#registrationForm button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-family: 'Croissant One';
+  transition: background-color 0.3s;
+  background-color: rgba(225, 179, 122, 0.516);
+  border-radius: 5px;
+  border: 0;
+}
+#registrationForm button:hover {
+  background-color: rgba(182, 140, 89, 0.6);
+}
+footer{
+  font-size: 8pt;
+  text-align: end;
+  padding: 5px;
+  background-color: rgb(182, 140, 89);
+}
